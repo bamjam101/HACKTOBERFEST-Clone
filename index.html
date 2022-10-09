@@ -5,15 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SimpleSite Clone</title>
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="opening-screen">
-      <nav>
+    <nav class="navbar">
+      <div class="left-nav">
         <header>SimpleSite</header>
 
-        <div class="nav-logo-container">//logo goes here</div>
-      </nav>
+        <ul>
+          <li><a href="#">Try it for free</a></li>
+          <li><a href="#service">customer Service</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#themes">Themes</a></li>
+        </ul>
+      </div>
+      <div class="right-nav">
+        <button>LOG IN</button>
+        <div class="nav-logo-container">
+          <img src="assets/globe.png" alt="">English
+        </div>
+      </div>
+    </nav>
+    <section class="opening-screen">
 
       <div class="intro-div">
         <h1>Create your website in <span>three simple steps</span></h1>
@@ -26,26 +41,30 @@
       </div>
     </section>
 
-    <section class="light">
+    <section id="themes" class="section-box light">
       <header>
         <h2>THEMES</h2>
       </header>
 
-      <p>
-        Pick a theme that fits the kind of website YOU want to make. We’ve made sure there are plenty of beautiful templates to choose from. Really, there’s something for everyone! Each template can be completely customized, so let your imagination run free.
-      </p>
+      <div class="para-container">
+        <div class="para-container">
+          <p>
+            Pick a theme that fits the kind of website YOU want to make. We’ve made sure there are plenty of beautiful templates to choose from. Really, there’s something for everyone! Each template can be completely customized, so let your imagination run free.
+          </p>
+        </div>
+      </div>
 
       <div class="theme-img-panel">
         //theme images go here
       </div>
     </section>
 
-    <section class="dull">
+    <section class="section-box dull">
       <header>
         <h2>WHY SIMPLESITE</h2>
       </header>
 
-      <para-container>
+      <div class="para-container">
         <p>
           At SimpleSite we believe it's important to offer people of all technological levels the ability to tap into the web's endless potential. Our solution isn't made for professional web developers; it’s made for anybody with a desire to have their own little corner of the internet. No designers, developers, or webmasters necessary.
         </p>
@@ -53,7 +72,7 @@
         <p>Best of all, you can have your own website online within minutes!</p>
 
         <p>Simply choose the type of website you'd like to have, customize its look with our guided design wizard, then fill in the information needed to make it yours. Make your own website today!</p>
-      </para-container>
+      </div>
 
       <div class="btn-wrapper">
         <button>Start Here</button>
@@ -64,17 +83,18 @@
       </div>
     </section>
 
-    <section class="light">
+    <section class="section-box light">
       <header>
         <h2>MOBILE READY</h2>
         <h2 class="text-thin"></h2>
       </header>
 
-      <p>
-        What makes SimpleSite stand out is that we are the only website builder that fully supports <strong>mobile-friendly editing</strong>  in a mobile browser - no special app needed! This means you can view <i>and</i>  edit your website on your smartphone.
-      </p>
-
-      <p>SimpleSite automatically gives you a website that looks stunning on both desktop and mobile. On top of that we also have a full mobile-optimized interface that gives you the freedom to access and edit everything on mobile devices. Edit the design and content of your website from the comfort of your couch or on the go - it’s all possible with SimpleSite’s mobile website editor.</p>
+      <div class="para-container">
+        <p>
+          What makes SimpleSite stand out is that we are the only website builder that fully supports <strong>mobile-friendly editing</strong>  in a mobile browser - no special app needed! This means you can view <i>and</i>  edit your website on your smartphone.
+        </p>
+        <p>SimpleSite automatically gives you a website that looks stunning on both desktop and mobile. On top of that we also have a full mobile-optimized interface that gives you the freedom to access and edit everything on mobile devices. Edit the design and content of your website from the comfort of your couch or on the go - it’s all possible with SimpleSite’s mobile website editor.</p>
+      </div>
 
       <div class="btn-wrapper">
         <button>Start Here</button>
@@ -85,12 +105,14 @@
       </div>
     </section>
 
-    <section class="dull bottom-container">
+    <section id="features" class="bottom-container dull">
       <header>
         <h2>FEATURES</h2>
       </header>
 
-      <P>Check out all the great features that are included on your website. SimpleSite provides everything you need to create a beautiful and professional website.</P>
+      <div class="para-container">
+        <p>Check out all the great features that are included on your website. SimpleSite provides everything you need to create a beautiful and professional website.</p>
+      </div>
 
       <div class="bottom-box">
         <div class="box-logo">
@@ -122,7 +144,7 @@
         <p>We will guide you every step of the way, empowering you to grow your business online. Whether you want to open a restaurant, or start a daycare, we have the resources for you!</p>
       </div>
 
-      <div class="bottom-box">
+      <div id="service" class="bottom-box">
         <div class="box-logo">
           //contact-logo image goes here
         </div>
