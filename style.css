@@ -46,10 +46,10 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 10vh;
     font-weight: bold;
-    width: 100%;
+    width: 95%;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -172,10 +172,27 @@ body {
 }
 
 .btn-wrapper {
-    padding: 3rem;
+    /* padding: 3rem; */
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.bottom-btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-btn-wrapper button{
+    padding: var(--spacing-sm) var(--spacing-rg);
+    border: 3px solid var(--color-brg);
+    border-radius: 1.5rem;
+    font-size: var(--fontsize-lg);
+    background-color: transparent;
+    background-color: red;
+    color: var(--color-brg);
+    letter-spacing: 3px;
 }
 
 .bottom-container {
@@ -197,10 +214,8 @@ body {
 
 
 footer{
-    position: absolute;
-    bottom: 0;
     background-color: var(--footer_clr);
-    color:var(--white)
+    color: var(--color-drk);
 }
 #footer-desc{
     display:flex;
