@@ -188,3 +188,45 @@ body {
     flex-direction: column;
     padding: 5rem;
 }
+
+
+
+
+
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--footer_clr);
+    color:var(--white)
+}
+#footer-desc{
+    display:flex;
+    justify-content: center;
+
+}
+.cols{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border:1px solid green;
+    padding:0.5rem;
+}
+footer p,footer h2{
+    margin:0.2rem;
+}
+footer h2{
+    border-bottom: 2.5px solid red;
+
+}
+
+.icons-container{
+    display:flex;
+    font-size: 1.5rem;
+    justify-content: space-evenly;
+}
